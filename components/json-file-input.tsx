@@ -51,7 +51,7 @@ export default function JsonFileInput() {
         onChange={handleFileChange}
       />
       {fileName && (
-        <p className="text-sm text-muted-foreground mt-2">
+        <p className="text-sm text-muted-foreground mt-2" aria-live="polite">
           File "{fileName}" loaded. Check your browser's console for
           `window.temp1`.
         </p>
