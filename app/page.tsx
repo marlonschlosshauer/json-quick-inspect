@@ -12,7 +12,9 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-white">
       <div className="flex flex-col gap-5 max-w-md">
-        <h1 className="text-2xl">Play with your .json</h1>
+        <h1 className="text-2xl">
+          Play with your <code>.json</code>
+        </h1>
         <p>
           Drop in your <code>.json</code> file and quickly iterate from with in
           the developer console.
